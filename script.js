@@ -78,7 +78,7 @@ document.addEventListener('visibilitychange',
             document.title = "";
         }
         else {
-            document.title = "VISIT AGAIN";
+            document.title = "";
         }
     });
 
