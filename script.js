@@ -75,7 +75,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "R3DHULK TECHNOLOGIES";
+            document.title = "";
         }
         else {
             document.title = "VISIT AGAIN";
