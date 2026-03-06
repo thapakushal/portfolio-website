@@ -21,8 +21,6 @@
     text-decoration: none;
 }
 
-
-
 .wrapper .button {
     display: inline-block;
     height: 60px;
@@ -459,7 +457,6 @@ section .title::after {
 }
 
 
-
 /* about section styling */
 .about {
     color: #fff;
@@ -481,6 +478,12 @@ section .title::after {
 
 .about .about-content .right {
     width: 55%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    min-width: 0;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .about .about-content .right .text {
@@ -488,6 +491,8 @@ section .title::after {
     font-weight: 600;
     margin-bottom: 10px;
     color: var(--text-light);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .about .about-content .right .text span {
@@ -500,6 +505,8 @@ section .title::after {
     color: #cbd5e1;
     line-height: 1.8;
     font-size: 16px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 /* courses/skills section styling */
@@ -582,7 +589,6 @@ section .title::after {
     border-color: var(--primary-color);
     transform: scale(1.1);
 }
-
 
 
 .owl-dots {
@@ -940,6 +946,7 @@ footer span a:hover {
 
     .about .about-content .right {
         flex: 100%;
+        padding-left: 0;
     }
 
     .courses .serv-content .card {
@@ -1040,4 +1047,3 @@ footer span a:hover {
         line-height: 38px;
     }
 }
-
