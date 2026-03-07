@@ -100,4 +100,4 @@ loadMoreBtn.onclick = () => {
 // resume
 function redirectLinkedIn() {
     window.location.href = "https://drive.google.com/file/d/1H5yKoqBs1JMB1ItjdT_dUyUehRufH9Io/view?usp=share_link";
-}
+  }
